@@ -26,10 +26,12 @@ div {
 
 #you {
   color: lightblue;
+  cursor: pointer;
 }
 
 #me {
   color: palevioletred;
+  cursor: pointer;
 }
 
 #poem {
