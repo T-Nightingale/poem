@@ -1,0 +1,61 @@
+.container {
+  display:table;
+  margin: 0;
+  width: 100%
+}
+
+.col-20 {
+  display: table-cell;
+  width: 20%;
+}
+
+.col-60 {
+  display: table-cell;
+  width: 60%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+div {
+  vertical-align: middle;
+  text-align: center;
+  height: 100vh;
+}
+
+#you {
+  color: lightblue;
+}
+
+#me {
+  color: palevioletred;
+}
+
+#poem {
+  color: palevioletred;
+}
+
+me {
+  color: palevioletred;
+}
+
+you {
+  color: lightblue;
+}
+
+us {
+  color: lightyellow;
+}
+
+.background {
+    background-size: 160% 100%;
+    background-image: linear-gradient(to right, palevioletred 50%, lightblue 50%);
+    -webkit-transition: background-position 1s;
+    -moz-transition: background-position 1s;
+    transition: background-position 1s;
+}
+
+.background-move {
+    background-position: 100% 0;
+}
